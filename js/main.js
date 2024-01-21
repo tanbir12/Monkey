@@ -67,6 +67,7 @@ function changeImage(){
     let crushname = document.getElementById("crush_name").value;
     
     if(name == "Pratikshya" && crushname == "Tanbir"){
+        document.getElementById("gifimg").src = "bubudance.gif";
         document.getElementById("mainimg").src = "Tanbir.jpg";
         document.getElementById("maintxt").innerHTML = "!!!  ....  Yech.. Yech  ....  !!!";
     
