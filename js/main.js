@@ -63,10 +63,10 @@
 
 function changeImage(){
 
-    let name = document.getElementById("your_name").value;
-    let crushname = document.getElementById("crush_name").value;
+    let name = document.getElementById("your_name").value.toLowerCase();
+    let crushname = document.getElementById("crush_name").value.toLowerCase();
     
-    if(name == "Pratikshya" && crushname == "Tanbir"){
+    if(name == "pratikshya" && crushname == "tanbir"){
         document.getElementById("gifimg").src = "bubudance.gif";
         document.getElementById("mainimg").src = "Tanbir.jpg";
         document.getElementById("maintxt").innerHTML = "!!!  ....  Yech.. Yech  ....  !!!";
